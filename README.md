@@ -1,6 +1,6 @@
 # Image-Composition-Dataset-MureCom
-Comprehensive Dataset for Image Composition &amp; Object Insertion
 
+To support fine-tuning open-source foundation image editing model for varied image composition and object insertion tasks, we built the maximally comprehensive dataset MureCom with ongoing improvements. The term "comprehensive" here does not refer to dataset scale, but rather the diversity of data types.
 
 Our MureCom dataset can be downloaded from [[Dropbox]](https://www.dropbox.com/scl/fi/0loo3934w5787s9tvus9i/MureCom.zip?rlkey=jzwby2b41qlr450myijeeai18&st=vg02b0k9&dl=0) or [[Baidu Cloud]](https://pan.baidu.com/s/1qPU6FWVuqXOVEHEZETip2A?pwd=u3wi). Note that MureCom is extended from our previous [FOSCom](https://github.com/bcmi/ControlCom-Image-Composition/tree/main?tab=readme-ov-file#foscom-dataset) dataset. This folder consists of 32 category subfolders, where each subfolder contains the following data:
 
@@ -28,6 +28,13 @@ MureCom
 ├── Bird
 │── ....
 ```
+
+By taking "bg" from "Box" category as an example, we show background images, bounding box masks (plausible bounding box to insert a foreground object of "Box" category), background images covered with bounding boxes below. 
+
+<p align='center'>  
+  <img src='./figures/murecom_bg_example.jpg'  width=80% />
+</p>
+
 
 By taking "fg3" from "Box" category as an example, we show foreground images, object masks, foreground images after removing objects, augmented foreground images by varying object lighting below. 
 
