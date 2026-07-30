@@ -32,11 +32,11 @@ MureCom
 By taking "bg" from "Box" category as an example, we show background images, bounding box masks (plausible bounding box to insert a foreground object of "Box" category), background images covered with bounding boxes below. 
 
 <p align='center'>  
-  <img src='./figures/murecom_bg_example.jpg'  width=80% />
+  <img src='./figures/murecom_bg_example.jpg'  width=90% />
 </p>
 
 
-By taking "fg3" from "Box" category as an example, we show foreground images, object masks, foreground images after removing objects, augmented foreground images by varying object lighting below. 
+By taking "fg3" from "Box" category as an example, we show foreground images, object masks, foreground images after removing objects and their reflections/shadows, augmented foreground images by varying object lighting below. 
 
 <p align='center'>  
   <img src='./figures/murecom_fg_example.jpg'  width=80% />
